@@ -1,0 +1,125 @@
+body {
+    background-color: rgba(247, 164, 70, 0.868);
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+#profile img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgba(128, 128, 128, 0.671);
+    border-radius: 10px;
+}
+
+header div {
+    font-size: 2em;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header div:hover {
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.4s ease-out;
+    transform: scale(1.2);
+}
+
+#profile {
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+#profile ul {
+    list-style: none;
+}
+
+#table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table td,
+#table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#table tr:hover {
+    background-color: #ddd;
+}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+footer {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    font-size: 1em;
+    background-color: black;
+    color: white;
+}
+#projects{
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+}
+#projects div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-decoration-line: underline;
+    text-decoration-style:wavy;
+    align-items: center;
+    color: red;
+}
+.headings{
+    background-color: black;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 13px;
+    text-transform: uppercase;
+  font-family: "Tilt Neon", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+#projects div:hover{
+    transition: all 0.4s ease-out;
+    transform: scale(1.08);
+}
